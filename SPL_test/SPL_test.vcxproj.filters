@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\test1">
+      <UniqueIdentifier>{1f0d7d8f-341d-461a-ab50-da6ff90ee75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\test2">
+      <UniqueIdentifier>{db3c6b4a-253f-4fc5-a621-32f342d3cabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\test3">
+      <UniqueIdentifier>{1ae49115-fb75-4e8c-a42c-ff6e0095f91c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SPL_test.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="test_1.cpp">
+      <Filter>Исходные файлы\test1</Filter>
+    </ClCompile>
+    <ClCompile Include="test_2.cpp">
+      <Filter>Исходные файлы\test2</Filter>
+    </ClCompile>
+    <ClCompile Include="test_3.cpp">
+      <Filter>Исходные файлы\test3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_3.h">
+      <Filter>Исходные файлы\test3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
